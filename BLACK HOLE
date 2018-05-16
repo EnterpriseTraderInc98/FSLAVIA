@@ -1,0 +1,44 @@
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+int main()
+{
+    bool Func1=false, Func2=false, Func3=false, Func4=false, Func5=false, Func6=false, Func7=false,loop=false;
+    int Selezione;
+    do {
+    system("clear");
+    cout << "\t\t\tBlackHole Menu" << boolalpha
+    <<"\n\tF. S. LA VIA \tEnterprise Trader Inc \t~PER UN MONDO LIBERO\n"
+    <<"\n1.\tFUNZIONE\tStatus: " << Func1
+    <<"\n2.\tFUNZIONE\tStatus: " << Func2
+    <<"\n3.\tFUNZIONE\tStatus: " << Func3
+    <<"\n4.\tFUNZIONE\tStatus: " << Func4
+    <<"\n5.\tFUNZIONE\tStatus: " << Func5
+    <<"\n6.\tFUNZIONE\tStatus: " << Func6
+    <<"\n7.\tFUNZIONE\tStatus: " << Func7
+    <<"\n\n\t\t\t Seleziona FUNZIONE : ";
+    cin >> Selezione;
+    switch(Selezione)
+    {
+    case 1 : cout << "True"<<endl;
+        break;
+    case 2 : cout << "True"<<endl;
+        break;
+    case 3 : cout << "True"<<endl;
+        break;
+    case 4 : cout << "True"<<endl;
+        break;
+    case 5 : cout << "True"<<endl;
+        break;
+    case 6 : cout << "True"<<endl;
+        break;
+    case 7 : cout << "True"<<endl;
+        break;
+    default : cout << "Error 1";
+    loop = true;
+    }
+    }while(loop=true);
+    return 0;
+}
